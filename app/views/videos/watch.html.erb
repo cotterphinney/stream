@@ -6,6 +6,7 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+    <link rel="stylesheet" href="https://cdn.plyr.io/2.0.18/plyr.css">
   </head>
 
   <body>
@@ -14,11 +15,12 @@
   <div>
   <div>
 
-  <iframe id="video" src="<%= @video.filename %>?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <div data-type="youtube" data-video-id="<%= @video.filename %>"></div>
 
   </div>
   </div>
 
-
+  <script src="https://cdn.plyr.io/2.0.18/plyr.js"></script>
+  <script>plyr.setup();</script>
   </body>
 </html>

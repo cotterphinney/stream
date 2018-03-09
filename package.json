@@ -1,5 +1,7 @@
 {
   "name": "stream",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "plyr": "^3.0.0-beta.17"
+  }
 }
