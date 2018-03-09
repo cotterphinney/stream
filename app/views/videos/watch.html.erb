@@ -12,22 +12,12 @@
   <body>
     <%= render "layouts/header" %>
 
-<div class="movies">
+<div>
+<div>
 
-<div class="album py-5 bg-light">
-<div class="container">
-<div class="row">
-
-<% @videos.each do |video| %>
-	<div class="col-md-4 cover-image">
-	    <%= link_to image_tag(video.cover_image), video_path(video) %>
-	</div>
-<% end %>
+<%= @video.title %>
 
 </div>
-</div>
-</div>
-
 </div>
 
 

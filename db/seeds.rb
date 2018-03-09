@@ -10,3 +10,8 @@ Movie.create(title: 'Night of the Living Dead',
 			 filename: 'night-of-the-living-dead.avi', 
 			 year: Date.parse('October 1, 1968'),
 			 cover_image: 'night-of-the-living-dead.jpg')
+
+Movie.create(title: 'The Driller Killer', 
+			 filename: 'the-driller-killer.avi', 
+			 year: Date.parse('June 15, 1979'),
+			 cover_image: 'the-driller-killer.jpg')
