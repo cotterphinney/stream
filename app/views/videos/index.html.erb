@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stream</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'style.less', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= render "layouts/header" %>
+
+<div class="movies">
+
+<div class="album py-5 bg-light">
+<div class="container">
+<div class="row">
+
+<% @videos.each do |video| %>
+	<div class="col-md-4 cover-image">
+	    <%= image_tag(video.cover_image) %>
+	</div>
+<% end %>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+  </body>
+</html>
