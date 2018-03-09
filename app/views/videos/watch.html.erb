@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Stream</title>
+    <title>Horror TV</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -12,13 +12,13 @@
   <body>
     <%= render "layouts/header" %>
 
-<div>
-<div>
+  <div>
+  <div>
 
-<%= @video.title %>
+  <iframe id="video" src="<%= @video.filename %>?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-</div>
-</div>
+  </div>
+  </div>
 
 
   </body>
