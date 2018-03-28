@@ -9,7 +9,7 @@
 Movie.create(title: 'Dawn of the Dead', 
 			 filename: 'https://www.youtube.com/watch?v=in_k7y8eGrc', 
 			 year: Date.parse('September 1, 1978'),
-			 cover_image: 'dawn-of-the-dead.jpg')
+			 cover_image: 'dawn-of-the-dead.png')
 
 Movie.create(title: 'Day of the Dead', 
 			 filename: 'https://www.youtube.com/watch?v=dy81Ktk2-zg', 
