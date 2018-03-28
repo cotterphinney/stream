@@ -15,12 +15,20 @@
   <div>
   <div>
 
-  <div data-type="youtube" data-video-id="<%= @video.filename %>"></div>
+  <div style=".plyr__controls {
+  background:url(thrillerlogo.jpg) 98% 80% no-repeat !important;
+  background-size:100px auto,auto!important
+};" data-type="youtube" data-video-id="<%= @video.filename %>"></div>
 
   </div>
   </div>
 
   <script src="https://cdn.plyr.io/2.0.18/plyr.js"></script>
-  <script>plyr.setup();</script>
+  <script>
+$(function() {
+  plyr.setup();
+});
+
+  </script>
   </body>
 </html>
