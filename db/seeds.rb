@@ -36,10 +36,10 @@ Movie.create(title: 'Zombie aka Zombi 2',
 			 year: Date.parse('August 25, 1979'),
 			 cover_image: 'zombie.jpg')
 
-Movie.create(title: 'TerrorVision', 
-			 filename: 'https://www.youtube.com/watch?v=HImF4wnL7jE', 
-			 year: Date.parse('February 14, 1986'),
-			 cover_image: 'terror-vision.jpeg')
+# Movie.create(title: 'TerrorVision', 
+# 			 filename: 'https://www.youtube.com/watch?v=HImF4wnL7jE', 
+# 			 year: Date.parse('February 14, 1986'),
+# 			 cover_image: 'terror-vision.jpeg')
 
 Movie.create(title: 'City of the Walking Dead', 
 			 filename: 'https://www.youtube.com/watch?v=h7pXN2-wB34', 
