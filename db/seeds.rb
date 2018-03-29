@@ -226,11 +226,6 @@ Movie.create(title: 'Hell Night',
 			 year: Date.parse('August 7, 1981'),
 			 cover_image: 'hell-night.jpg')
 
-Movie.create(title: 'The Midnight Hour', 
-			 filename: 'https://www.youtube.com/watch?v=bMMCG--ex_8', 
-			 year: Date.parse('November 1, 1985'),
-			 cover_image: 'the-midnight-hour.jpg')
-
 Movie.create(title: 'Xtro', 
 			 filename: 'https://www.youtube.com/watch?v=bE2mlIpyobE', 
 			 year: Date.parse('December 6, 1982'),
