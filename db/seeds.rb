@@ -52,7 +52,7 @@ Movie.create(title: 'Zombie aka Zombi 2',
 			 cover_image: 'zombie.jpg')
 
 Movie.create(title: 'TerrorVision', 
-			 filename: 'https://www.youtube.com/watch?v=HImF4wnL7jE', 
+			 filename: 'https://www.youtube.com/watch?v=3gWW_LvuAYw', 
 			 year: Date.parse('February 14, 1986'),
 			 cover_image: 'terror-vision.jpg')
 
