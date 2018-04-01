@@ -122,7 +122,7 @@ Movie.create(title: 'Christmas Evil',
 			 cover_image: 'christmas-evil.jpg')
 
 Movie.create(title: 'The Omen', 
-			 filename: 'https://www.youtube.com/watch?v=P87-_Y4H_1c', 
+			 filename: 'https://www.youtube.com/watch?v=t_29UtmWj6I', 
 			 year: Date.parse('June 25, 1976'),
 			 cover_image: 'the-omen.jpg')
 
@@ -217,7 +217,7 @@ Movie.create(title: 'Without Warning',
 			 cover_image: 'without-warning.jpg')
 
 Movie.create(title: 'Videodrome', 
-			 filename: 'https://www.youtube.com/watch?v=suU1-9N1nFo', 
+			 filename: 'https://www.youtube.com/watch?v=UsQD3-mVZsc&t=3588s', 
 			 year: Date.parse('February 4, 1983'),
 			 cover_image: 'videodrome.jpg')
 
@@ -226,10 +226,10 @@ Movie.create(title: 'Children of the Corn',
 			 year: Date.parse('March 9, 1984'),
 			 cover_image: 'children-of-the-corn.jpg')
 
-Movie.create(title: 'Hell Night', 
-			 filename: 'https://www.youtube.com/watch?v=mV-sMDa72wM', 
-			 year: Date.parse('August 7, 1981'),
-			 cover_image: 'hell-night.jpg')
+Movie.create(title: 'Happy Hell Night', 
+			 filename: 'https://www.youtube.com/watch?v=I4nNuFjc9HE', 
+			 year: Date.parse('April 13, 1992'),
+			 cover_image: 'happy-hell-night.png')
 
 Movie.create(title: 'Xtro', 
 			 filename: 'https://www.youtube.com/watch?v=bE2mlIpyobE', 
