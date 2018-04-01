@@ -250,8 +250,3 @@ Movie.create(title: 'Reform School Girls',
 			 filename: 'https://www.youtube.com/watch?v=-8lW3jWJ4p8', 
 			 year: Date.parse('August 22, 1986'),
 			 cover_image: 'reform-school-girls.jpg')
-
-Movie.create(title: 'Rock \'n\' Roll High School', 
-			 filename: 'https://www.youtube.com/watch?v=WfgQdCeHa0o', 
-			 year: Date.parse('August 4, 1979'),
-			 cover_image: 'rock-n-roll-high-school.jpg')
