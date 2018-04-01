@@ -216,6 +216,11 @@ Movie.create(title: 'Without Warning',
 			 year: Date.parse('September 26, 1980'),
 			 cover_image: 'without-warning.jpg')
 
+Movie.create(title: 'Videodrome', 
+			 filename: 'https://www.youtube.com/watch?v=suU1-9N1nFo', 
+			 year: Date.parse('February 4, 1983'),
+			 cover_image: 'videodrome.jpg')
+
 Movie.create(title: 'Children of the Corn', 
 			 filename: 'https://www.youtube.com/watch?v=I2ul_vgEl6U', 
 			 year: Date.parse('March 9, 1984'),
