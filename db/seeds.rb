@@ -12,7 +12,7 @@ Movie.create(title: 'Dawn of the Dead',
 			 cover_image: 'dawn-of-the-dead.png')
 
 Movie.create(title: 'Day of the Dead', 
-			 filename: 'https://www.youtube.com/watch?v=dy81Ktk2-zg', 
+			 filename: 'https://www.youtube.com/watch?v=8fFQupgf4Ko', 
 			 year: Date.parse('July 19, 1985'),
 			 cover_image: 'day-of-the-dead.jpg')
 
@@ -217,7 +217,7 @@ Movie.create(title: 'Without Warning',
 			 cover_image: 'without-warning.jpg')
 
 Movie.create(title: 'Videodrome', 
-			 filename: 'https://www.youtube.com/watch?v=UsQD3-mVZsc&t=3588s', 
+			 filename: 'https://www.youtube.com/watch?v=UsQD3-mVZsc', 
 			 year: Date.parse('February 4, 1983'),
 			 cover_image: 'videodrome.jpg')
 
