@@ -18,9 +18,7 @@ body {
 	background-color: black;
 }
 
-
-
- .nav {
+.nav {
 	height: 70px;
 	background-color: #ff5f5f;
 	line-height: 50px;
@@ -43,4 +41,19 @@ body {
 			height: 100%;
 		}
 	}
+}
+
+.about {
+	max-width: 800px;
+    margin-top: 50px;
+    background-color: white;
+    line-height: 38px;
+    padding: 40px;
+    .bold {
+    	font-weight: 600;
+    	font-size: 17px;
+    }
+    h2 {
+    	margin-bottom: 17px;
+    }
 }

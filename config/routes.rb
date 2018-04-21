@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   root 'videos#index'
 
   get '/videos/:id', to: 'videos#watch', as: 'video'
+
+  get '/about', to: 'static_pages#about', as: 'about'
 end
