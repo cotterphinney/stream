@@ -6,6 +6,16 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Movie.create(title: 'Terror on Tour', 
+			 filename: 'https://www.youtube.com/watch?v=ErzGmboeDIo', 
+			 year: Date.parse('January 1, 1980'),
+			 cover_image: 'terror-on-tour.jpg')
+
+Movie.create(title: 'Hack-O-Lantern', 
+			 filename: 'https://www.youtube.com/watch?v=ypSsqd66iN8', 
+			 year: Date.parse('July 30, 1988'),
+			 cover_image: 'hack-o-lantern.jpg')
+
 Movie.create(title: 'Rocktober Blood', 
 			 filename: 'https://www.youtube.com/watch?v=hagJlYNMsL4', 
 			 year: Date.parse('October 12, 1984'),
@@ -20,6 +30,11 @@ Movie.create(title: 'Hard Rock Zombies',
 			 filename: 'https://www.youtube.com/watch?v=_6e_vmO7E3Q', 
 			 year: Date.parse('September 1, 1985'),
 			 cover_image: 'hard-rock-zombies.jpg')
+
+Movie.create(title: 'Shock \'Em Dead', 
+			 filename: 'https://www.youtube.com/watch?v=ruoimb_dJM4', 
+			 year: Date.parse('January 1, 1990'),
+			 cover_image: 'shock-em-dead.png')
 
 Movie.create(title: 'Trick or Treat', 
 			 filename: 'https://www.youtube.com/watch?v=hofayMaAAZY', 
