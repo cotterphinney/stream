@@ -6,6 +6,26 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Movie.create(title: 'Rocktober Blood', 
+			 filename: 'https://www.youtube.com/watch?v=hagJlYNMsL4', 
+			 year: Date.parse('October 12, 1984'),
+			 cover_image: 'rocktober-blood.png')
+
+Movie.create(title: 'Rock \'n\' Roll Nightmare', 
+			 filename: 'https://www.youtube.com/watch?v=hFJdqGG5brE', 
+			 year: Date.parse('June 21, 1987'),
+			 cover_image: 'rock-n-roll-nightmare.jpg')
+
+Movie.create(title: 'Hard Rock Zombies', 
+			 filename: 'https://www.youtube.com/watch?v=_6e_vmO7E3Q', 
+			 year: Date.parse('September 1, 1985'),
+			 cover_image: 'hard-rock-zombies.jpg')
+
+Movie.create(title: 'Trick or Treat', 
+			 filename: 'https://www.youtube.com/watch?v=hofayMaAAZY', 
+			 year: Date.parse('October 24, 1986'),
+			 cover_image: 'trick-or-treat.jpg')
+
 Movie.create(title: 'Dawn of the Dead', 
 			 filename: 'https://www.youtube.com/watch?v=in_k7y8eGrc', 
 			 year: Date.parse('September 1, 1978'),
@@ -100,11 +120,6 @@ Movie.create(title: 'Zombie Nightmare',
 			 filename: 'https://www.youtube.com/watch?v=8D4o1GYCsCU', 
 			 year: Date.parse('March 7, 1988'),
 			 cover_image: 'zombie-nightmare.jpg')
-
-Movie.create(title: 'Trick or Treat', 
-			 filename: 'https://www.youtube.com/watch?v=hofayMaAAZY', 
-			 year: Date.parse('October 24, 1986'),
-			 cover_image: 'trick-or-treat.jpg')
 
 Movie.create(title: 'Elvira\'s 1986 MTV Halloween Special', 
 			 filename: 'https://www.youtube.com/embed/fYZccLA5HBE', 
