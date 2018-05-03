@@ -48,7 +48,7 @@ Movie.create(title: 'Fright Night Part II',
 
 Movie.create(title: 'House By The Cemetery', 
 			 filename: 'https://www.youtube.com/watch?v=IcfN4jaoPqA', 
-			 year: Date.parse('1981'),
+			 year: Date.parse('March 1, 1984'),
 			 cover_image: 'house-by-the-cemetery.jpeg')
 
 Movie.create(title: 'Dawn of the Dead', 
@@ -103,12 +103,12 @@ Movie.create(title: 'TerrorVision',
 
 Movie.create(title: 'Hell High', 
 			 filename: 'https://www.youtube.com/watch?v=iQZ_t6YX-P4', 
-			 year: Date.parse('1989'),
+			 year: Date.parse('May 12, 1989'),
 			 cover_image: 'hell-high.jpg')
 
 Movie.create(title: 'Return to Horror High', 
 			 filename: 'https://www.youtube.com/watch?v=kXLnJuSrFD4', 
-			 year: Date.parse('1986'),
+			 year: Date.parse('January 9, 1987'),
 			 cover_image: 'return-to-horror-high.jpg')
 
 Movie.create(title: 'Class of 1984', 
