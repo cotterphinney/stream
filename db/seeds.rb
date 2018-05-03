@@ -49,7 +49,7 @@ Movie.create(title: 'Fright Night Part II',
 Movie.create(title: 'House By The Cemetery', 
 			 filename: 'https://www.youtube.com/watch?v=IcfN4jaoPqA', 
 			 year: Date.parse('March 1, 1984'),
-			 cover_image: 'house-by-the-cemetery.jpeg')
+			 cover_image: 'house-by-the-cemetery.jpg')
 
 Movie.create(title: 'Dawn of the Dead', 
 			 filename: 'https://www.youtube.com/watch?v=in_k7y8eGrc', 
