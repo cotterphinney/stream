@@ -41,6 +41,16 @@ Movie.create(title: 'Trick or Treat',
 			 year: Date.parse('October 24, 1986'),
 			 cover_image: 'trick-or-treat.jpg')
 
+Movie.create(title: 'Fright Night Part II', 
+			 filename: 'https://www.youtube.com/watch?v=4VPWAhv70u8', 
+			 year: Date.parse('May 19, 1989'),
+			 cover_image: 'fright-night-part-2.jpg')
+
+Movie.create(title: 'House By The Cemetery', 
+			 filename: 'https://www.youtube.com/watch?v=IcfN4jaoPqA', 
+			 year: Date.parse('1981'),
+			 cover_image: 'house-by-the-cemetery.jpeg')
+
 Movie.create(title: 'Dawn of the Dead', 
 			 filename: 'https://www.youtube.com/watch?v=in_k7y8eGrc', 
 			 year: Date.parse('September 1, 1978'),
@@ -90,6 +100,16 @@ Movie.create(title: 'TerrorVision',
 			 filename: 'https://www.youtube.com/watch?v=3gWW_LvuAYw', 
 			 year: Date.parse('February 14, 1986'),
 			 cover_image: 'terror-vision.jpg')
+
+Movie.create(title: 'Hell High', 
+			 filename: 'https://www.youtube.com/watch?v=iQZ_t6YX-P4', 
+			 year: Date.parse('1989'),
+			 cover_image: 'hell-high.jpg')
+
+Movie.create(title: 'Return to Horror High', 
+			 filename: 'https://www.youtube.com/watch?v=kXLnJuSrFD4', 
+			 year: Date.parse('1986'),
+			 cover_image: 'return-to-horror-high.jpg')
 
 Movie.create(title: 'Class of 1984', 
 			 filename: 'https://www.youtube.com/watch?v=wb0MXivyeuA', 
