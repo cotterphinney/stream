@@ -1,11 +1,22 @@
-<ul class="nav">
-  <li class="nav-item">
-    <span class="nav-link">DemonVideo.TV</span>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/">Movies</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/about">About</a>
-  </li>
-</ul>
+<nav class="nav navbar navbar-expand-md fixed-top">
+	<span class="nav-link brand">DemonVideo.TV</span>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarCollapse">
+	  <ul class="navbar-nav mr-auto">
+	    <li class="nav-item">
+			<a class="nav-link" href="/">Movies</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="/about">About</a>
+		</li>
+	  </ul>
+		<%= form_tag(videos_path, :method => "get", class: "form-inline mt-2 mt-md-0") do %>
+		<div class="form-group">
+		<%= text_field_tag :search, params[:search], class: "form-control mr-sm-2", placeholder: "Search movies" %>
+		</div>
+		<%= submit_tag "Search", class: "btn btn-outline-light my-2 my-sm-0" %>
+		<% end %>
+	</div>
+</nav>
