@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Movie.destroy_all
+
 Movie.create(title: 'Terror on Tour', 
 			 filename: 'https://www.youtube.com/watch?v=ErzGmboeDIo', 
 			 year: Date.parse('January 1, 1980'),
@@ -300,3 +302,8 @@ Movie.create(title: 'Reform School Girls',
 			 filename: 'https://www.youtube.com/watch?v=-8lW3jWJ4p8', 
 			 year: Date.parse('August 22, 1986'),
 			 cover_image: 'reform-school-girls.jpg')
+
+Movie.all.each do |m|
+	m.slug = Movie.to_slug(m.title)
+	m.save!
+end

@@ -8,6 +8,6 @@ class VideosController < ApplicationController
 	end
 
 	def watch
-		@video = Movie.find(params[:id])
+		@video = Movie.find_by_slug(params[:slug])
 	end
 end
