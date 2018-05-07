@@ -21,17 +21,35 @@
 <%= render "layouts/header" %>
 
 <div class="container about">
+
   <div class="row">
     <div class="col-md-12">
       <h2>Demon Video</h2>
       <p>
         DemonVideo.TV is a free horror streaming service, for tape heads by tape heads.
       </p>
-      <p class="bold">
-        If you have any feedback for the website, <a href="https://www.instagram.com/demonvideo.tv/"> don't hesitate to reach out!</a>
-      </p>
     </div>
   </div>
+
+  <div class="row">
+    <span class="suggestions text-center">
+      <strong>If you have any suggestions for the site, don't hesitate to reach out:</strong>
+    </span>
+    <div class="col-md-12">
+      <div class="contact-form">
+        <%= form_for @email, url: create_email_url do |f| %>
+        <%= notice %>
+        <%= @email.errors.full_messages.join(', ') %>
+
+        <%= f.text_field :name, placeholder: 'Name' %>
+        <%= f.email_field :email, placeholder: 'Email' %>
+        <%= f.text_area :body, placeholder: 'Message' %>
+        <%= f.submit 'Send', class: "submit btn btn-primary" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 </body>
